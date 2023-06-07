@@ -1,0 +1,35 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .photo {
+    width: 100%;
+    height: auto;
+  }
+  .button-group {
+    position: relative;
+  }
+  
+  .prev-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .next-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .square {
+  width: 150vmin;
+  height: 111vmin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40vmin;
+  margin-left: -75vmin;
+  }
